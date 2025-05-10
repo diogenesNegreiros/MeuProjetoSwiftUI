@@ -10,9 +10,22 @@
 		166CDA1D2DCEE9550066088B /* MeuProjetoSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuProjetoSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		166CDA3A2DCEEB200066088B /* Exceptions for "MeuProjetoSwiftUi" folder in "MeuProjetoSwiftUi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 166CDA1C2DCEE9550066088B /* MeuProjetoSwiftUi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		166CDA1F2DCEE9550066088B /* MeuProjetoSwiftUi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				166CDA3A2DCEEB200066088B /* Exceptions for "MeuProjetoSwiftUi" folder in "MeuProjetoSwiftUi" target */,
+			);
 			path = MeuProjetoSwiftUi;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,7 @@
 				DEVELOPMENT_TEAM = 8QS6PBHYYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeuProjetoSwiftUi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +298,7 @@
 				DEVELOPMENT_TEAM = 8QS6PBHYYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeuProjetoSwiftUi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

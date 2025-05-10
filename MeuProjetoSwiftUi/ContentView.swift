@@ -22,19 +22,23 @@ struct ContentView: View {
                         Circle().stroke(Color.white, lineWidth: 4)
                     }
                 Text("Diógenes Negreiros")
-                    .font(.system(size: 20))
+                    .font(Font.custom("Tagesschrift-Regular", size: 24))
                     .fontWeight(.bold)
                     .foregroundColor(Color.white)
                 Text("Dev IOS e Android")
-                    .font(.system(size: 16))
-                    .fontWeight(.bold)
+                    .font(.system(size: 18))
+                    .fontWeight(.regular)
                     .foregroundColor(Color.white)
                 RoundedRectangle(cornerRadius: 25)
                     .frame(height: 50)
                     .foregroundColor(Color.white)
                     .padding()
-                    .overlay (Text("+55 (21) 994047961"))
-
+                    .overlay (HStack {
+                        Image(systemName: "phone.fill.badge.checkmark")
+                            .foregroundColor(Color.green)
+                        Text("+55 (21) 994047961")
+                    })
+                
             }
         }
         
