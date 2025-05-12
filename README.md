@@ -12,7 +12,7 @@ Este é um aplicativo básico que exibe um cartão de visita digital com foto, n
 
 ## 🖼️ Captura de Tela
 
-![Screenshot do App](imagePrints/cartao-visita.png)
+![Screenshot do App]([imagePrints/cartao-visita.png](https://github.com/diogenesNegreiros/MeuProjetoSwiftUI/blob/main/imagePrints/catao-visita.png))
 
 
 ## 🚀 Como rodar o projeto
