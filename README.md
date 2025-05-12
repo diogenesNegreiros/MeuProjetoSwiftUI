@@ -12,7 +12,7 @@ Este é um aplicativo básico que exibe um cartão de visita digital com foto, n
 
 ## 🖼️ Captura de Tela
 
-![Screenshot do App](MeuProjetoSwiftUi/readmeImages/cartao-visita.png)
+![Screenshot do App](imagePrints/cartao-visita.png)
 
 
 ## 🚀 Como rodar o projeto
@@ -20,5 +20,5 @@ Este é um aplicativo básico que exibe um cartão de visita digital com foto, n
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/diogenesNegreiros/MeuProjetoSwiftUI.git
 cd seu-repositorio
