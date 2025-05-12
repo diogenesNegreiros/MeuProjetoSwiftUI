@@ -36,7 +36,7 @@ struct ContentView: View {
                     .overlay (HStack {
                         Image(systemName: "phone.fill.badge.checkmark")
                             .foregroundColor(Color.green)
-                        Text("+55 (21) 994047961")
+                        Text("+55 (21) 999999999")
                     })
                 
             }
