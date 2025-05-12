@@ -12,7 +12,7 @@ Este é um aplicativo básico que exibe um cartão de visita digital com foto, n
 
 ## 🖼️ Captura de Tela
 
-![Cartão de Visita](imagePrints/catao-visita.png)
+<img src="imagePrints/catao-visita.png" alt="Cartão de Visita" style="width: 40%;" />
 
 
 ## 🚀 Como rodar o projeto
