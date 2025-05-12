@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		166CDA652DD266CB0066088B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 166CDA642DD266CB0066088B /* README.md */; };
+		166CDA672DD266EE0066088B /* catao-visita.png in Resources */ = {isa = PBXBuildFile; fileRef = 166CDA662DD266EE0066088B /* catao-visita.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		166CDA1D2DCEE9550066088B /* MeuProjetoSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuProjetoSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		166CDA642DD266CB0066088B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		166CDA662DD266EE0066088B /* catao-visita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "catao-visita.png"; path = "imagePrints/catao-visita.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -29,11 +36,6 @@
 			path = MeuProjetoSwiftUi;
 			sourceTree = "<group>";
 		};
-		166CDA622DD2646F0066088B /* readmeImages */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = readmeImages;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,8 @@
 		166CDA142DCEE9550066088B = {
 			isa = PBXGroup;
 			children = (
-				166CDA622DD2646F0066088B /* readmeImages */,
+				166CDA662DD266EE0066088B /* catao-visita.png */,
+				166CDA642DD266CB0066088B /* README.md */,
 				166CDA1F2DCEE9550066088B /* MeuProjetoSwiftUi */,
 				166CDA1E2DCEE9550066088B /* Products */,
 			);
@@ -81,7 +84,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				166CDA1F2DCEE9550066088B /* MeuProjetoSwiftUi */,
-				166CDA622DD2646F0066088B /* readmeImages */,
 			);
 			name = MeuProjetoSwiftUi;
 			packageProductDependencies = (
@@ -129,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166CDA672DD266EE0066088B /* catao-visita.png in Resources */,
+				166CDA652DD266CB0066088B /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
