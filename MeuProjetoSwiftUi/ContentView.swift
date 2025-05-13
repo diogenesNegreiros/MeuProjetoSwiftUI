@@ -29,15 +29,8 @@ struct ContentView: View {
                     .font(.system(size: 18))
                     .fontWeight(.regular)
                     .foregroundColor(Color.white)
-                RoundedRectangle(cornerRadius: 25)
-                    .frame(height: 50)
-                    .foregroundColor(Color.white)
-                    .padding()
-                    .overlay (HStack {
-                        Image(systemName: "phone.fill.badge.checkmark")
-                            .foregroundColor(Color.green)
-                        Text("+55 (21) 999999999")
-                    })
+                ContactView(text:"+55 (21) 999999999",  image:"phone.fill.badge.checkmark")
+                ContactView(text:"dio@test@gmail.com",  image:"envelope.fill")
                 
             }
         }
@@ -48,3 +41,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
